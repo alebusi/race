@@ -40,13 +40,13 @@
   background-color: #00C200; color: #000000;
 }
 #pecora {
-  background-color: #F1F1B4; color: #000000; border-radius: 60px;
+  background-color: #F1F1B4; color: #000000; border-radius: 120px;
 }
 #cinghiale {
-  background-color: #000000; color: #ffffff; border-radius: 60px;
+  background-color: #000000; color: #ffffff; border-radius: 120px;
 }
 #bestiame {
-  background-color: #622100; color: #ffffff; border-radius: 60px;
+  background-color: #622100; color: #ffffff; border-radius: 120px;
 }
 
 /*
