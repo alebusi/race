@@ -1,6 +1,8 @@
-function myfunc(div) {
-  var className = div.getAttribute("class");
-  var legnoC = document.getElementById( 'legno' );
-  legnoC += 1;
-  legno.innerHTML = legnoC;
+var s=0;
+function myfunc() {
+  //var className = div.getAttribute("class");
+  //var legnoC = document.getElementById( 'legno' );
+  s = s+1;
+  document.getElementById('conteggi').innerHTML = s;
+  //legno.innerHTML = legnoC;
   }
