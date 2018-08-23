@@ -13,21 +13,22 @@
     font-size: 100px;
     padding-top: 70px;
     padding-bottom: 70px;
-    /*margin-top: 20px;*/
+    margin-top: 20px;
 }
 
 .button {
+    /*display: inline-block;*/
     width: 120px;
     height: 100px;
-    /*background-color: #ff0000;*/
-    border: 5px solid red;
+    background-color: #ff0000;
+    /*border: 5px solid red;*/
     font-size: 15px;
     text-align: center;
     margin-left: 60px;
-    border-radius: 5px;
+    border-radius: 120px;
 }
 
-.button:hover {background-color: red;}
+/*.button:hover {background-color: red;}*/
 
 .riga {
     width: 100%;
