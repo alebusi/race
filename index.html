@@ -6,31 +6,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="wrapper">
-    <!--
-				<div id="legno1" class="risorsa" onclick="myfunc(this)">0</div>
-        <div id="decr1" class="button" onclick="decrementa()">decr</div>
-				<div id="argilla" class="risorsa" onclick="myfunc(this)">-</div>
-				<div id="pietra" class="risorsa" onclick="myfunc(this)">-</div>
-				<div id="canna" class="risorsa" onclick="myfunc(this)">-</div>
-				<div id="grano" class="risorsa" onclick="myfunc(this)">-</div>
-				<div id="ortaggio" class="risorsa" onclick="myfunc(this)">-</div>
-        <div id="cibo" class="risorsa" onclick="myfunc(this)">-</div>
-        <div id="pecora" class="risorsa" onclick="myfunc(this)">-</div>
-        <div id="cinghiale" class="risorsa" onclick="myfunc(this)">-</div>
-        <div id="bestiame" class="risorsa" onclick="myfunc(this)">-</div>
-        <div id="piccolimi" class="risorsa" onclick="myfunc(this)">-</div>
-        <div id="occupazioni" class="risorsa" onclick="myfunc(this)">-</div>
--->
-
-<table>
-  <tr><td><div id="legno" class="risorsa" onclick="myfunc('legno', 1)">0</div></td>
-      <td><div id="decr" class="button" onclick="myfunc('legno',-1)"></div></td></tr>
-    <tr><td>Dato 1,1</td><td>Dato 1,2</td></tr>
-    <tr><td>Dato 2,1</td><td>Dato 2,2</td></tr>
-    <tr><td>Dato 3,1</td><td>Dato 3,2</td></tr>
+<div>
+<class="wrapper">
+  <table>
+  <tr><td><div id="legno" class="risorsa" onclick="myfunc('legno', 1, 0)">0</div></td>
+      <td><div class="button" onclick="myfunc('legno',-1,0)"></div></td></tr>
+  <tr><td><div id="argilla" class="risorsa" onclick="myfunc('argilla',1,1)">0</div></td>
+      <td><div class="button" onclick="myfunc('argilla',-1,1)"></div></td></tr>
+  <tr><td><div id="pietra" class="risorsa" onclick="myfunc('pietra',1,2)">0</div></td>
+      <td><div class="button" onclick="myfunc('pietra',-1,2)"></div></td></tr>
+  <tr><td><div id="canna" class="risorsa" onclick="myfunc('canna',1,3)">0</div></td>
+      <td><div class="button" onclick="myfunc('canna',-1,3)"></div></td></tr>
+  <tr><td><div id="grano" class="risorsa" onclick="myfunc('grano',1,4)">0</div></td>
+      <td><div class="button" onclick="myfunc('grano',-1,4)"></div></td></tr>
+  <tr><td><div id="ortaggio" class="risorsa" onclick="myfunc('ortaggio',1,5)">0</div></td>
+      <td><div class="button" onclick="myfunc('ortaggio',-1,5)"></div></td></tr>
+  <tr><td><div id="cibo" class="risorsa" onclick="myfunc('cibo',1,6)">0</div></td>
+      <td><div class="button" onclick="myfunc('cibo',-1,6)"></div></td></tr>
+  <tr><td><div id="pecora" class="risorsa" onclick="myfunc('pecora',1,7)">0</div></td>
+      <td><div class="button" onclick="myfunc('pecora',-1,7)"></div></td></tr>
+  <tr><td><div id="cinghiale" class="risorsa" onclick="myfunc('cinghiale',1,8)">0</div></td>
+      <td><div class="button" onclick="myfunc('cinghiale',-1,8)"></div></td></tr>
+  <tr><td><div id="bestiame" class="risorsa" onclick="myfunc('bestiame',1,9)">0</div></td>
+      <td><div class="button" onclick="myfunc('bestiame',-1,9)"></div></td></tr>
 </table>
-		</div>
-	<script src="counter.js"></script>
+</div>
+   <script src="counter.js"></script>
 </body>
 </html>
