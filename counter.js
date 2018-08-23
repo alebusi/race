@@ -1,8 +1,8 @@
 var s=0;
-function myfunc() {
-  //var className = div.getAttribute("class");
+function myfunc(id,i) {
+  /*var idName = div.getAttribute("id");*/
   //var legnoC = document.getElementById( 'legno' );
-  s = s+1;
-  document.getElementById('legno').innerHTML = s;
+  s = s+i;
+  document.getElementById(id).innerHTML = s;
   //legno.innerHTML = legnoC;
   }
