@@ -26,6 +26,12 @@
     border-radius: 5px;
 }
 
+.riga {
+    width: 400px;
+    height: 10px;
+    background-color: #000000;
+}
+
 #legno {
   background-color: #824200; color: #ffffff; 
 }
