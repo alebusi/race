@@ -6,18 +6,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="wrapper">
-	<div id="legno" class="risorsa" onclick="myfunc(this)">0</div>
-	<div id="argilla" class="risorsa" onclick="myfunc(this)">2</div>
-	<div id="pietra" class="risorsa" onclick="myfunc(this)">3</div>
-	<div id="canna" class="risorsa" onclick="myfunc(this)">4</div>
-	<div id="grano" class="risorsa" onclick="myfunc(this)">5</div>
-	<div id="ortaggio" class="risorsa" onclick="myfunc(this)">6</div>
-        <div id="pecora" class="risorsa" onclick="myfunc(this)">7</div>
-        <div id="cinghiale" class="risorsa" onclick="myfunc(this)">8</div>
-        <div id="bestiame" class="risorsa" onclick="myfunc(this)">9</div>
-	<div id="cibo" class="risorsa" onclick="myfunc(this)">-</div>
-   </div>
+	<div class="wrapper">
+    <!--
+				<div id="legno1" class="risorsa" onclick="myfunc(this)">0</div>
+        <div id="decr1" class="button" onclick="decrementa()">decr</div>
+				<div id="argilla" class="risorsa" onclick="myfunc(this)">-</div>
+				<div id="pietra" class="risorsa" onclick="myfunc(this)">-</div>
+				<div id="canna" class="risorsa" onclick="myfunc(this)">-</div>
+				<div id="grano" class="risorsa" onclick="myfunc(this)">-</div>
+				<div id="ortaggio" class="risorsa" onclick="myfunc(this)">-</div>
+        <div id="cibo" class="risorsa" onclick="myfunc(this)">-</div>
+        <div id="pecora" class="risorsa" onclick="myfunc(this)">-</div>
+        <div id="cinghiale" class="risorsa" onclick="myfunc(this)">-</div>
+        <div id="bestiame" class="risorsa" onclick="myfunc(this)">-</div>
+        <div id="piccolimi" class="risorsa" onclick="myfunc(this)">-</div>
+        <div id="occupazioni" class="risorsa" onclick="myfunc(this)">-</div>
+-->
+
+<table>
+  <tr><td><div id="legno" class="risorsa" onclick="myfunc('legno', 1)">0</div></td>
+      <td><div id="decr" class="button" onclick="myfunc('legno',-1)"></div></td></tr>
+    <tr><td>Dato 1,1</td><td>Dato 1,2</td></tr>
+    <tr><td>Dato 2,1</td><td>Dato 2,2</td></tr>
+    <tr><td>Dato 3,1</td><td>Dato 3,2</td></tr>
+</table>
+		</div>
 	<script src="counter.js"></script>
 </body>
 </html>
