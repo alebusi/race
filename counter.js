@@ -7,13 +7,13 @@ function myfunc(id,i,ind) {
   v=tess[ind];
   document.getElementById(id).innerHTML = v;
   if (i == 1) {
-    if ( id = "pecora" ) then {
+    if ( id == "pecora" ) then {
        var aumenta = new Audio('pecora.mp3');
        }
-    else if ( id = "cinghiale" ) then {
+    else if ( id == "cinghiale" ) then {
        var aumenta = new Audio('cinghiale.mp3');
        }
-    else if ( id = "bestiame" ) then {
+    else if ( id == "bestiame" ) then {
        var aumenta = new Audio('mucca.mp3');
        }
     else {
