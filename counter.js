@@ -1,5 +1,5 @@
 var tess = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-var success = new Audio('success.wav');
+/*var success = new Audio('success.wav');*/
 var decrementa = new Audio('togli.mp3');
 
 function myfunc(id,i,ind) {
@@ -7,7 +7,20 @@ function myfunc(id,i,ind) {
   v=tess[ind];
   document.getElementById(id).innerHTML = v;
   if (i == 1) {
-    success.play();
+    if ( id = "pecora" ) then {
+       var aumenta = new Audio('pecora.mp3');
+       }
+    elsif ( id = "cinghiale" ) then {
+       var aumenta = new Audio('cinghiale.mp3');
+       }
+    elsif ( id = "bestiame" ) then {
+       var aumenta = new Audio('mucca.mp3');
+       }
+    else {
+       var aumenta = new Audio('mucca.mp3');
+       }
+    end if;
+    aumenta.play();
     }
   else {
     decrementa.play();
