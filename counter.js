@@ -7,19 +7,18 @@ function myfunc(id,i,ind) {
   v=tess[ind];
   document.getElementById(id).innerHTML = v;
   if (i == 1) {
-    if ( id == "pecora" ) then {
+    if ( id == "pecora" ) {
        var aumenta = new Audio('pecora.mp3');
        }
-    else if ( id == "cinghiale" ) then {
+    else if ( id == "cinghiale" ) {
        var aumenta = new Audio('cinghiale.mp3');
        }
-    else if ( id == "bestiame" ) then {
+    else if ( id == "bestiame" ) {
        var aumenta = new Audio('mucca.mp3');
        }
     else {
        var aumenta = new Audio('success.wav');
        }
-    end if;
     aumenta.play();
     }
   else {
