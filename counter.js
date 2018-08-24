@@ -10,14 +10,14 @@ function myfunc(id,i,ind) {
     if ( id = "pecora" ) then {
        var aumenta = new Audio('pecora.mp3');
        }
-    elsif ( id = "cinghiale" ) then {
+    else if ( id = "cinghiale" ) then {
        var aumenta = new Audio('cinghiale.mp3');
        }
-    elsif ( id = "bestiame" ) then {
+    else if ( id = "bestiame" ) then {
        var aumenta = new Audio('mucca.mp3');
        }
     else {
-       var aumenta = new Audio('mucca.mp3');
+       var aumenta = new Audio('success.wav');
        }
     end if;
     aumenta.play();
