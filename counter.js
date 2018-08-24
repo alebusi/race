@@ -1,6 +1,5 @@
 var tess = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 /*var success = new Audio('success.wav');*/
-var decrementa = new Audio('togli.mp3');
 
 function myfunc(id,i,ind) {
   tess[ind]+=i;
@@ -22,6 +21,7 @@ function myfunc(id,i,ind) {
     aumenta.play();
     }
   else {
+    var decrementa = new Audio('togli.mp3');
     decrementa.play();
     }
   }
