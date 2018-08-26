@@ -48,19 +48,19 @@
 .stanza {
     width: 170px;
     height: 170px;
-    background-color: yellow;
+    background-color: grey;
 }
 
 .campo {
     width: 170px;
     height: 170px;
-    background-color: green;
+    background-color: brown;
 }
 
 .pascolo {
     width: 170px;
     height: 170px;
-    background-color: blue;
+    background-color: green;
 }
 
 
