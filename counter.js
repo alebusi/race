@@ -25,12 +25,21 @@ function myfunc(id,i,ind) {
     decrementa.play();
     }
   }
+
 function myfunc2(div) {
   var className = div.getAttribute("class");
-  if(className=="spazio") {
-    div.className = "spazio_legno";
-  }
+  if (className=="spazio") {
+    div.className = "stanza";
+    }
+  elsif (className=="stanza") {
+    div.className = "campo";
+    }
+  elsif (className=="campo") {
+    div.className = "pascolo";
+    }
   else{
     div.className = "spazio";
   }
+  var aumenta = new Audio('success.wav');
+  aumenta.play();
 }
