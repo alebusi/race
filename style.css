@@ -5,7 +5,6 @@
 }
 
 .risorsa {
-    /*display: inline-block;*/
     width: 200px;
     /*height: 100px;*/
     background-color: #ff0000;
@@ -17,7 +16,6 @@
 }
 
 .button {
-    /*display: inline-block;*/
     width: 120px;
     height: 100px;
     background-color: #ff0000;
