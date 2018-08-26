@@ -27,10 +27,10 @@ function myfunc(id,i,ind) {
   }
 function myfunc2(div) {
   var className = div.getAttribute("class");
-  if(className=="dice free") {
-    div.className = "dice locked";
+  if(className=="spazio") {
+    div.className = "spazio_legno";
   }
   else{
-    div.className = "dice free";
+    div.className = "spazio";
   }
 }
