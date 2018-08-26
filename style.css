@@ -45,10 +45,22 @@
     border: solid 3px black;
 }
 
+.stanza {
+    width: 170px;
+    height: 170px;
+    background-color: yellow;
+}
+
 .campo {
     width: 170px;
     height: 170px;
     background-color: green;
+}
+
+.pascolo {
+    width: 170px;
+    height: 170px;
+    background-color: blue;
 }
 
 
