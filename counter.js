@@ -31,13 +31,13 @@ function myfunc2(div) {
   if (className=="spazio") {
     div.className = "stanza";
     }
-  elsif (className=="stanza") {
+  else if (className=="stanza") {
     div.className = "campo";
     }
-  elsif (className=="campo") {
+  else if (className=="campo") {
     div.className = "pascolo";
     }
-  else{
+  else {
     div.className = "spazio";
   }
   var aumenta = new Audio('success.wav');
