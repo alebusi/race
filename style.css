@@ -63,8 +63,8 @@
     background-color: green;
 }
 
-.vuoto {
-    height: 200px;
+.tabellone {
+    margin: 200px, auto;
 }
 
 #legno {
