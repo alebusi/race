@@ -39,7 +39,7 @@
 }
 
 .spazio {
-    width: 200px;
+    width: 150px;
     /*height: 100px;*/
     background-color: #ffffff;
     border: solid 3px black;
@@ -48,6 +48,18 @@
     padding-bottom: 70px;
     margin-top: 20px;
 }
+
+.spazio_legno {
+    width: 150px;
+    /*height: 100px;*/
+    background-color: #000000;
+    /*border: solid 3px black;*/
+    font-size: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 20px;
+}
+
 
 #legno {
   background-color: #824200; color: #ffffff; 
