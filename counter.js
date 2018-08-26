@@ -25,3 +25,12 @@ function myfunc(id,i,ind) {
     decrementa.play();
     }
   }
+function myfunc2(div) {
+  var className = div.getAttribute("class");
+  if(className=="dice free") {
+    div.className = "dice locked";
+  }
+  else{
+    div.className = "dice free";
+  }
+}
