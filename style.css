@@ -38,6 +38,17 @@
     margin-bottom: 80px;
 }
 
+.spazio {
+    width: 200px;
+    /*height: 100px;*/
+    background-color: #ffffff;
+    border: solid 3px black;
+    font-size: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 20px;
+}
+
 #legno {
   background-color: #824200; color: #ffffff; 
 }
