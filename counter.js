@@ -40,6 +40,6 @@ function myfunc2(div) {
   else {
     div.className = "spazio";
   }
-  var aumenta = new Audio('success.wav');
-  aumenta.play();
+  var suona = new Audio('campo.mp3');
+  suona.play();
 }
