@@ -4,6 +4,17 @@
     background-color: white;
 }
 
+.freccia {
+    position: fixed;
+    top: 80px;
+    left: 80px;
+    padding: 30px;
+    background-color: red;
+    font-size: 3em;
+    color: white;
+    font-family: Arial;
+}
+
 .risorsa {
     width: 200px;
     /*height: 100px;*/
