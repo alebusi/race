@@ -1,6 +1,7 @@
 .tabellone {
     margin: 200px auto;
     border: 8px solid red;
+    width: 1000px;
 }
 .tabellone table tr td {
     padding: 0;
