@@ -1,108 +1,31 @@
-.wrapper {
-    width: 400px;
-    margin: 120px auto;
-    background-color: white;
-}
-
-.freccia {
-    position: fixed;
-    top: 80px;
-    left: 80px;
-    padding: 30px;
-    background-color: red;
-    font-size: 3em;
-    color: white;
-    font-family: Arial;
-}
-
-.risorsa {
-    width: 200px;
-    /*height: 100px;*/
-    background-color: #ff0000;
-    text-align: center;
-    font-size: 100px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    margin-top: 20px;
-}
-
-.button {
-    width: 120px;
-    height: 100px;
-    background-color: #ff0000;
-    opacity: 0.5;
-    /*border: 5px solid red;*/
-    font-size: 15px;
-    text-align: center;
-    margin-left: 60px;
-    border-radius: 120px;
-}
-
-/*.button:hover {background-color: red;}*/
-
-.riga {
-    width: 100%;
-    height: 10px;
-    background-color: #000000;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
 .tabellone {
-    margin: 400px auto;
+    margin: 200px auto;
+    border: 8px solid red;
 }
 
 .spazio {
-    width: 170px;
-    height: 170px;
+    width: 20px;
+    height: 20px;
     background-color: #ffffff;
+}
+.spazio:hover {
+    background-color: red;
 }
 
 .stanza {
-    width: 170px;
-    height: 170px;
-    background-color: #ffa420;
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
 }
 
 .campo {
-    width: 170px;
-    height: 170px;
-    background-color: #BF4100;
+    width: 20px;
+    height: 20px;
+    background-color: #4285f4;
 }
 
 .pascolo {
     width: 170px;
     height: 170px;
-    background-color: #00C200;
-}
-
-#legno {
-  background-color: #824200; color: #ffffff; 
-}
-#argilla {
-  background-color: #C21212; color: #ffffff; 
-}
-#pietra {
-  background-color: #000000; color: #ffffff; 
-}
-#canna {
-  background-color: #FFE1B0; 
-}
-#grano {
-  background-color: #FFFF00; color: #000000; 
-}
-#ortaggio {
-  background-color: #ffa420; color: #000000; 
-}
-#cibo {
-  background-color: #00C200; color: #000000;
-}
-#pecora {
-  background-color: #F1F1B4; color: #000000; border-radius: 250px;
-}
-#cinghiale {
-  background-color: #000000; color: #ffffff; border-radius: 250px;
-}
-#bestiame {
-  background-color: #BF4100; color: #ffffff; border-radius: 250px;
+    background-color: #fbbc05;
 }
