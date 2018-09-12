@@ -1,6 +1,6 @@
 .tabellone {
     margin: 200px auto;
-    border: 8px solid red;
+    /* border: 8px solid red; */
     width: 1000px;
 }
 .tabellone table tr td {
