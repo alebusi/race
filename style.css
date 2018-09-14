@@ -13,7 +13,7 @@
     height: 20px;
     background-color: #ffffff;
 }
-.spazio:hover {
+.spazio:hover, .stanza:hover, .campo:hover, .pascolo:hover {
     background-color: red;
 }
 
