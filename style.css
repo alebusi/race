@@ -9,29 +9,29 @@
 }
 
 .spazio {
-    width: 20px;
-    height: 20px;
-    background-color: #ffffff;
+    width: 22px;
+    height: 22px;
+    background-color: #B2B2B2;
 }
 .spazio:hover, .stanza:hover, .campo:hover, .pascolo:hover {
     background-color: red;
 }
 
 .stanza {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     background-color: #000000;
     margin: 0;
 }
 
 .campo {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     background-color: #4285f4;
 }
 
 .pascolo {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     background-color: #fbbc05;
 }
