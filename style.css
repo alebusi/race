@@ -13,9 +13,6 @@
     height: 22px;
     background-color: #ffffff;
 }
-.spazio:hover, .stanza:hover, .campo:hover, .pascolo:hover {
-    background-color: red;
-}
 
 .stanza {
     width: 22px;
@@ -35,4 +32,8 @@
     height: 22px;
     background-color: #000000;
     border-radius: 11px;
+}
+
+.spazio:hover, .stanza:hover, .campo:hover, .pascolo:hover {
+    background-color: red;
 }
