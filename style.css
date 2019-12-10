@@ -1,40 +1,18 @@
 .tabellone {
-    margin: 200px auto;
-    /* border: 8px solid red; */
-    width: 1100px;
-    cursor: none;
-    background-color: #ffffff;
-}
-.tabellone table tr td {
-    padding: 0;
+    width: 1200px;
+    height: 800px;
+    top: 50%;
+    left: 50%;
+    postion: absolute;
+    border: solid 5px white;
+    background-color: #000000;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .spazio {
-    width: 22px;
-    height: 22px;
-    background-color: #ffffff;
-}
-
-.stanza {
-    width: 22px;
-    height: 22px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
     background-color: #000000;
-    margin: 0;
-}
-
-.campo {
-    width: 22px;
-    height: 22px;
-    background-color: #4285f4;
-}
-
-.pascolo {
-    width: 22px;
-    height: 22px;
-    background-color: #000000;
-    border-radius: 11px;
-}
-
-.spazio:hover, .stanza:hover, .campo:hover, .pascolo:hover {
-    background-color: red;
 }
