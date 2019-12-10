@@ -1,9 +1,8 @@
-var colori = ["orange","#ff3300","#00FFFF","#FF00FF","#00C200","white"];
+var colori = ["black","white","orange","#ff3300","#00FFFF","#FF00FF","#00C200"];
 var ind_c = 0;
-/*var success = new Audio('success.wav');*/
 
-function cambioColore() {
+function cambioColore(div) {
   ind_c+=1;
   if (ind_c > colori.length-1) ind_c=0;
-     this.style.backgroundColor = colori[ind_c];
+     div.style.backgroundColor = colori[ind_c];
 }
