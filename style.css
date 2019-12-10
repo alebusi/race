@@ -1,3 +1,11 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+}
+
 .tabellone {
     width: 1200px;
     height: 800px;
