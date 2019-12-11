@@ -25,3 +25,13 @@ html, body {
     display: inline-block;
     background-color: #000000;
 }
+
+.campione {
+    position: fixed;
+    top: 82vh;
+    left: 88vw;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 6vw;
+    border: solid 3 px white;
+    background-color: white;
