@@ -21,7 +21,7 @@ html, body {
     border: solid 5px white;
 }
 
-td:hover {
+.spazio:hover {
   animation: mymoveSelection 1s;
 }
 
