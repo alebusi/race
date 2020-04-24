@@ -21,6 +21,11 @@ html, body {
     border: solid 5px white;
 }
 
+.tabellone:hover-campione {
+    border: solid 5px white;
+    opacity: 1;
+}
+
 .spazio:hover {
   animation: mymoveSelection 1s;
 }
@@ -47,3 +52,4 @@ html, body {
     border-radius: 6vw;
     border: solid 3px white;
     background-color: white;
+    opacity: 0;
