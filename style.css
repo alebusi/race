@@ -21,7 +21,7 @@ html, body {
     border: solid 5px white;
 }
 
-.tabellone:hover-.campione {
+.tabellone:hover ~ .campione {
     opacity: 1;
 }
 
