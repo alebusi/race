@@ -59,6 +59,11 @@ html, body {
     opacity: 1;
 }
 
+.tabellone:hover ~ .campione {
+    opacity: 1;
+}
+
+
 .off {
     position: fixed;
     top: 90vh;
