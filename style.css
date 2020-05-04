@@ -46,8 +46,8 @@ html, body {
 
 .campione {
     position: fixed;
-    top: 80vh;
-    left: 88vw;
+    top: 72vh;
+    left: 80vw;
     width: 6vw;
     height: 6vw;
     border-radius: 6vw;
@@ -57,4 +57,12 @@ html, body {
    
 .campione:hover {
     opacity: 1;
+}
+
+.off {
+    position: fixed;
+    top: 90vh;
+    width: 100vw;
+    height: 10vh;
+    animation: mymoveSelection 1s;
 }
