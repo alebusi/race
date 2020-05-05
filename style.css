@@ -22,15 +22,14 @@ html, body {
     border: solid 5px white;
 }
 */
-
+/*
 .tabellone:hover ~ #campione {
     opacity: 1;
 }
-
 #campione:hover {
     opacity: 1;
 }
-
+*/
 .spazio:hover {
   animation: mymoveSelection 1s;
 }
@@ -57,7 +56,6 @@ html, body {
     border-radius: 6vw;
     border: solid 3px white;
     background-color: white;
-    opacity: 0;
 
 .orizzontale {
     position: absolute;
