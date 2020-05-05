@@ -3,8 +3,8 @@ var ind_c = 0;
 var animazioni = ["vuoto","orizzontale","verticale","rettangolo"];
 var ind_anim = 0;
 
-function verTastoPremuto(e) {
-  if (e.keyCode == 32) {
+function verTastoPremuto(event) {
+  if (event.keyCode == 32) {
       cambioCampione();
   }	
 }
