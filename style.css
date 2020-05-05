@@ -58,14 +58,14 @@ html, body {
     border: solid 3px white;
     background-color: white;
 
-.muoviCam {
+.muovi {
     position: fixed;
     top: 90vh;
     width: 10vw;
     height: 10vh;
 }
 
-.muoviCam:hover {
+.muovi:hover {
   animation: mymoveSelection 1s;
 }
 
