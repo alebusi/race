@@ -43,8 +43,9 @@ html, body {
     border-radius: 6vw;
     border: solid 3px white;
     background-color: white;
+}
 
-.muovi {
+.muovicam {
     position: fixed;
     top: 90vh;
     width: 10vw;
@@ -52,7 +53,7 @@ html, body {
     background-color: white;
 }
 
-.muovi:hover {
+.muovicam:hover {
   animation: mymoveSelection 1s;
 }
 
