@@ -16,11 +16,11 @@ function cambioColore(div) {
 function cambioCampione() {
   ind_c+=1;
   if (ind_c > colori.length-1) ind_c=0;
-     document.getElementById("Campione").style.backgroundColor = colori[ind_c];
+     document.getElementById("campione").style.backgroundColor = colori[ind_c];
 }
 
 function cambioAnimazione() {
   ind_anim+=1;
   if (ind_anim > animazioni.length-1) ind_anim=0;
-  document.getElementById("Campione").className=animazioni[ind_anim];
+  document.getElementById("campione").className=animazioni[ind_anim];
 }
