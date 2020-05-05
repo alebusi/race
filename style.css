@@ -66,12 +66,12 @@ html, body {
 }
 
 @keyframes mymove_oriz {
-  0%   {left: 15%;}
+  0%   {top: 50%; left: 15%;}
   10%  {left: 15%;}
   40%  {left: 85%;}
   60%  {left: 85%;}
   90%  {left: 15%;}
-  100% {left: 15%;}
+  100% {top: 50%; left: 15%;}
 }
 
 .verticale { 
@@ -84,12 +84,12 @@ html, body {
 }
 
 @keyframes mymove_vert {
-  0%   {top: 15%;}
+  0%   {top: 15%; left: 50%;}
   10%  {top: 15%;}
   40%  {top: 85%;}
   60%  {top: 85%;}
   90%  {top: 15%;}
-  100% {top: 15%;}
+  100% {top: 15%; left: 50%;}
 }
 
 .rettangolo {
