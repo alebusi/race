@@ -17,20 +17,6 @@ html, body {
     transform: translate(-50%, -50%);
 }
 
-/*
-.tabellone:hover {
-    border: solid 5px white;
-}
-*/
-/*
-.tabellone:hover ~ #campione {
-    opacity: 1;
-}
-#campione:hover {
-    opacity: 1;
-}
-*/
-
 @keyframes mymoveSelection {
   0%   {background-color: white;}
   100% {background-color: black;}
