@@ -48,10 +48,10 @@ function cambioAnimazione() {
 function draw() {
     context = canvas.getContext("2d");
     context.clearRect(0, 0, 1200, 800);
-    
+    /*
     context.fillStyle = "rgb(200, 100, 220)";
     context.fillRect(50, 50, 100, 100);
-    
+    */
     x += (speed * mod) * Math.cos(Math.PI / 180 * angle);
     y += (speed * mod) * Math.sin(Math.PI / 180 * angle);
 
