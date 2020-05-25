@@ -12,7 +12,7 @@ mod = 0;
 canvas = document.getElementById("canvas");
 context = canvas.getContext("2d");
 car = new Image();
-car.src = "car.png";
+car.src = "http://i.imgur.com/uwApbV7.png";
 
 window.addEventListener("keydown", keypress_handler, false);
 window.addEventListener("keyup", keyup_handler, false);
