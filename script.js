@@ -1,4 +1,4 @@
-var colori = ["white","orange","#ff3300","#00FFFF","#FF00FF","#00C200","black"];
+var colori = ["white","orange","#ff3300","#00FFFF","#FF00FF","#00C200","transparent"];
 var ind_c = 0;
 var animazioni = ["vuoto","orizzontale","verticale","rettangolo"];
 var ind_anim = 0;
