@@ -58,7 +58,7 @@ function draw() {
     context.save();
     context.translate(x, y);
     context.rotate(Math.PI / 180 * angle);
-    context.drawImage(car, -(car.width / 2), -(car.height / 2));
+    context.drawImage(car, -(car.width / 2), -(car.height / 2),40,30);
     context.restore();
 }
 
