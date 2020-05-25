@@ -21,11 +21,13 @@ var moveInterval = setInterval(function () {
     draw();
 }, 30);
 
+/*
 function verTastoPremuto(event) {
   if (event.keyCode == 32) {
       cambioCampione();
   }	
 }
+*/
 
 function cambioColore(div) {
   div.style.backgroundColor = colori[ind_c];
@@ -79,5 +81,8 @@ function keypress_handler(event) {
     }
     if (event.keyCode == 46) {
         angle += 5;
+    }
+    if (event.keyCode == 32) {
+      cambioCampione();
     }
 }
