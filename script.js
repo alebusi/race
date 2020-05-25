@@ -10,11 +10,10 @@ car.src = "car.png";
 
 window.addEventListener("keydown", keypress_handler, false);
 window.addEventListener("keyup", keyup_handler, false);
-/*
+
 var moveInterval = setInterval(function () {
     draw();
 }, 30);
-*/
 
 function verTastoPremuto(event) {
   if (event.keyCode == 32) {
