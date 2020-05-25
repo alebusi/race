@@ -3,6 +3,12 @@ var ind_c = 0;
 var animazioni = ["vuoto","orizzontale","verticale","rettangolo"];
 var ind_anim = 0;
 
+x = 0;
+y = 0;
+speed = 5;
+angle = 0;
+mod = 0;
+
 canvas = document.getElementById("canvas");
 context = canvas.getContext("2d");
 car = new Image();
