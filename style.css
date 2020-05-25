@@ -12,7 +12,7 @@ html, body {
     top: 50%;
     left: 50%;
     position: absolute;
-    background-color: #000000;
+    background-color: transparent;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -27,7 +27,7 @@ html, body {
     height: 80px;
     float: left;
     display: inline-block;
-    background-color: #000000;
+    background-color: transparent;
 }
 
 .spazio:hover {
