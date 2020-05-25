@@ -10,11 +10,11 @@ car.src = "car.png";
 
 window.addEventListener("keydown", keypress_handler, false);
 window.addEventListener("keyup", keyup_handler, false);
-
+/*
 var moveInterval = setInterval(function () {
     draw();
 }, 30);
-
+*/
 
 function verTastoPremuto(event) {
   if (event.keyCode == 32) {
@@ -40,11 +40,11 @@ function cambioAnimazione() {
 
 function draw() {
     context = canvas.getContext("2d");
-    context.clearRect(0, 0, 800, 800);
-
+    context.clearRect(0, 0, 1200, 800);
+    /*
     context.fillStyle = "rgb(200, 100, 220)";
     context.fillRect(50, 50, 100, 100);
-
+    */
     x += (speed * mod) * Math.cos(Math.PI / 180 * angle);
     y += (speed * mod) * Math.sin(Math.PI / 180 * angle);
 
@@ -69,10 +69,10 @@ function keypress_handler(event) {
     if (event.keyCode == 83) {
         mod = -1;
     }
-    if (event.keyCode == 65) {
+    if (event.keyCode == 44) {
         angle -= 5;
     }
-    if (event.keyCode == 68) {
+    if (event.keyCode == 46) {
         angle += 5;
     }
 }
