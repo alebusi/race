@@ -29,22 +29,6 @@ function verTastoPremuto(event) {
 }
 */
 
-function cambioColore(div) {
-  div.style.backgroundColor = colori[ind_c];
-}
-
-function cambioCampione() {
-  ind_c+=1;
-  if (ind_c > colori.length-1) ind_c=0;
-     document.getElementById("campione").style.backgroundColor = colori[ind_c];
-}
-
-function cambioAnimazione() {
-  ind_anim+=1;
-  if (ind_anim > animazioni.length-1) ind_anim=0;
-  document.getElementById("campione").className=animazioni[ind_anim];
-}
-
 function draw() {
     context = canvas.getContext("2d");
     context.clearRect(0, 0, 1200, 800);
@@ -85,4 +69,20 @@ function keypress_handler(event) {
     if (event.keyCode == 32) {
       cambioCampione();
     }
+}
+
+function cambioColore(div) {
+  div.style.backgroundColor = colori[ind_c];
+}
+
+function cambioCampione() {
+  ind_c+=1;
+  if (ind_c > colori.length-1) ind_c=0;
+     document.getElementById("campione").style.backgroundColor = colori[ind_c];
+}
+
+function cambioAnimazione() {
+  ind_anim+=1;
+  if (ind_anim > animazioni.length-1) ind_anim=0;
+  document.getElementById("campione").className=animazioni[ind_anim];
 }
