@@ -61,10 +61,10 @@ function keypress_handler(event) {
         mod = -1;
     }
     if (event.keyCode == 190) {
-        angle -= 5;
+        angle -= 6;
     }
     if (event.keyCode == 189) {
-        angle += 5;
+        angle += 6;
     }
     if (event.keyCode == 32) {
       cambioCampione();
