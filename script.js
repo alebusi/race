@@ -76,10 +76,10 @@ function keypress_handler(event) {
     if (event.keyCode == 83) {
         mod = -1;
     }
-    if (event.keyCode == 188) {
+    if (event.keyCode == 190) {
         angle -= 5;
     }
-    if (event.keyCode == 190) {
+    if (event.keyCode == 189) {
         angle += 5;
     }
     if (event.keyCode == 32) {
