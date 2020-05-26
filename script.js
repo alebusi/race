@@ -55,10 +55,10 @@ function keyup_handler(event) {
 function keypress_handler(event) {
     console.log(event.keyCode);
     if (event.keyCode == 87) {
-        mod = 1;
+        mod = 0.5;
     }
     if (event.keyCode == 83) {
-        mod = -1;
+        mod = -0.5;
     }
     if (event.keyCode == 190) {
         angle -= 5;
