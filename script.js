@@ -3,8 +3,8 @@ var ind_c = 0;
 var animazioni = ["vuoto","orizzontale","verticale","rettangolo"];
 var ind_anim = 0;
 
-x = 10;
-y = 10;
+x = 30;
+y = 30;
 speed = 5;
 angle = 0;
 mod = 0;
