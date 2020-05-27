@@ -5,7 +5,7 @@ var ind_anim = 0;
 
 x = 100;
 y = 100;
-speed = 5;
+speed = 6;
 angle = 0;
 mod = 0;
 
@@ -42,7 +42,7 @@ function draw() {
     context.save();
     context.translate(x, y);
     context.rotate(Math.PI / 180 * angle);
-    context.drawImage(car, -(car.width / 2), -(car.height / 2),60,40);
+    context.drawImage(car, -(car.width / 2), -(car.height / 2));
     context.restore();
 }
 
