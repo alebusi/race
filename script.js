@@ -5,7 +5,9 @@ var ind_anim = 0;
 
 x = 200;
 y = 200;
-speed = 6;
+speed = 12;
+max_speed = 12;
+accelero=false;
 angle = 0;
 mod = 0;
 
@@ -19,7 +21,7 @@ window.addEventListener("keyup", keyup_handler, false);
 
 var moveInterval = setInterval(function () {
     draw();
-}, 30);
+}, 60);
 
 /*
 function verTastoPremuto(event) {
