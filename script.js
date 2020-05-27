@@ -3,8 +3,8 @@ var ind_c = 0;
 var animazioni = ["vuoto","orizzontale","verticale","rettangolo"];
 var ind_anim = 0;
 
-x = 100;
-y = 100;
+x = 200;
+y = 200;
 speed = 6;
 angle = 0;
 mod = 0;
@@ -36,6 +36,11 @@ function draw() {
     context.fillStyle = "rgb(200, 100, 220)";
     context.fillRect(50, 50, 100, 100);
     */
+    
+    if (accelero === false && speed > 0 && speed < max_speed) {
+  	  speed-=1;
+    }
+    
     x += (speed * mod) * Math.cos(Math.PI / 180 * angle);
     y += (speed * mod) * Math.sin(Math.PI / 180 * angle);
 
@@ -47,28 +52,37 @@ function draw() {
 }
 
 function keyup_handler(event) {
-    if (event.keyCode == 87 || event.keyCode == 83) {
-        mod = 0;
-    }
+  if (event.keyCode == 83 || event.keyCode == 87) {
+    //mod = 0;
+    speed-=1;
+    accelero=false;
+  }
 }
 
 function keypress_handler(event) {
-    console.log(event.keyCode);
-    if (event.keyCode == 87) {
-        mod = 1;
+  if (event.keyCode == 87) {
+    mod = 1;
+    accelero=true;
+    if (speed < max_speed) {
+  	  speed+=1;
     }
-    if (event.keyCode == 83) {
-        mod = -1;
+  }
+  if (event.keyCode == 83) {
+    mod = -1;
+    accelero=true;
+    if (speed < max_speed) {
+  	  speed+=1;
     }
-    if (event.keyCode == 190) {
-        angle -= 6;
-    }
-    if (event.keyCode == 189) {
-        angle += 6;
-    }
-    if (event.keyCode == 32) {
-      cambioCampione();
-    }
+  }
+  if (event.keyCode == 65) {
+    angle -= 6;
+  }
+  if (event.keyCode == 68) {
+    angle += 6;
+  }
+  if (event.keyCode == 32) {
+    cambioCampione();
+  }
 }
 
 function cambioColore(div) {
