@@ -46,7 +46,7 @@ function draw() {
     x += (speed * mod) * Math.cos(Math.PI / 180 * angle);
     y += (speed * mod) * Math.sin(Math.PI / 180 * angle);
 
-    if (x > 100 && x < canvas.width-100 && y > 70 && y < canvas.height -100 {
+    if (x > 100 && x < canvas.width-100 && y > 70 && y < canvas.height -100) {
       context.save();
       context.translate(x, y);
       context.rotate(Math.PI / 180 * angle);
