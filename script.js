@@ -33,7 +33,7 @@ function verTastoPremuto(event) {
 
 function draw() {
     context = canvas.getContext("2d");
-    context.clearRect(0, 0, 1200, 800);
+    context.clearRect(0, 0, 1800, 1000);
     /*
     context.fillStyle = "rgb(200, 100, 220)";
     context.fillRect(50, 50, 100, 100);
