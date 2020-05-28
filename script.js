@@ -81,6 +81,12 @@ function keypress_handler(event) {
   if (event.keyCode == 189) {
     angle += 6;
   }
+  if (event.keyCode == 38) {
+    max_speed+=1;
+  }
+  if (event.keyCode == 40) {
+    max_speed-=1;
+  }
   if (event.keyCode == 32) {
     cambioCampione();
   }
