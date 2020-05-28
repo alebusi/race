@@ -5,7 +5,7 @@ var ind_anim = 0;
 
 x = 200;
 y = 200;
-speed = 10;
+speed = 0;
 max_speed = 10;
 accelero=false;
 angle = 0;
@@ -39,8 +39,12 @@ function draw() {
     context.fillRect(50, 50, 100, 100);
     */
     
-    if (accelero === false && speed > 0 && speed < max_speed) {
+    if (accelero === false && speed > 0) {
   	  speed-=1;
+    }
+    
+    if (accelero && speed < max_speed) {
+  	  speed+=1;
     }
     
     x += (speed * mod) * Math.cos(Math.PI / 180 * angle);
@@ -58,7 +62,6 @@ function draw() {
 function keyup_handler(event) {
   if (event.keyCode == 83 || event.keyCode == 87) {
     //mod = 0;
-    speed-=1;
     accelero=false;
   }
 }
@@ -67,16 +70,10 @@ function keypress_handler(event) {
   if (event.keyCode == 87) {
     mod = 1;
     accelero=true;
-    if (speed < max_speed) {
-  	  speed+=1;
-    }
   }
   if (event.keyCode == 83) {
     mod = -1;
     accelero=true;
-    if (speed < max_speed) {
-  	  speed+=1;
-    }
   }
   if (event.keyCode == 190) {
     angle -= 6;
