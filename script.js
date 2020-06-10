@@ -2,6 +2,7 @@ var colori = ["white","orange","#ff3300","#00FFFF","#FF00FF","#00C200","transpar
 var ind_c = 0;
 var animazioni = ["vuoto","orizzontale","verticale","rettangolo"];
 var ind_anim = 0;
+kd = false;
 
 x = 300;
 y = 300;
@@ -64,6 +65,11 @@ function keyup_handler(event) {
     //mod = 0;
     accelero=false;
   }
+  if (event.keyCode == 190 || evnt.keyCode == 189) {
+        this.kd = false;
+	    try {clearInterval(sterza);}
+		catch{}
+  }
 }
 
 function keypress_handler(event) {
@@ -75,11 +81,19 @@ function keypress_handler(event) {
     mod = -1;
     accelero=true;
   }
-  if (event.keyCode == 190) {
-    angle -= 6;
-  }
-  if (event.keyCode == 189) {
-    angle += 6;
+  if (event.keyCode == 190 || event.keyCode == 189) { 
+    if (!this.kd) {
+		this.kd = true;
+        if (event.keyCode == 190) {
+          angolo = -6;
+        }
+        if (event.keyCode == 189) {
+          angolo = 6;
+        }
+        sterza = setInterval(function() {
+					gira(angolo);
+		}, 5);
+    }
   }
   if (event.keyCode == 38) {
     max_speed+=1;
@@ -90,6 +104,10 @@ function keypress_handler(event) {
   if (event.keyCode == 32) {
     cambioCampione();
   }
+}
+
+function gira(angolo) {
+    angle += angolo;
 }
 
 function cambioColore(div) {
