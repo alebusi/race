@@ -22,7 +22,7 @@ window.addEventListener("keyup", keyup_handler, false);
 
 var moveInterval = setInterval(function () {
     draw();
-}, 40);
+}, 20);
 
 /*
 function verTastoPremuto(event) {
