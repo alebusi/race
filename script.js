@@ -92,7 +92,7 @@ function keypress_handler(event) {
         }
         sterza = setInterval(function() {
 		gira(angolo);
-		}, 20);
+		}, 30);
     }
   }
   if (event.keyCode == 38) {
