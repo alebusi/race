@@ -65,7 +65,7 @@ function keyup_handler(event) {
     //mod = 0;
     accelero=false;
   }
-  if (event.keyCode == 190 || evnt.keyCode == 189) {
+  if (event.keyCode == 190 || event.keyCode == 189) {
         this.kd = false;
 	    try {clearInterval(sterza);}
 		catch{}
@@ -83,7 +83,7 @@ function keypress_handler(event) {
   }
   if (event.keyCode == 190 || event.keyCode == 189) { 
     if (!this.kd) {
-		this.kd = true;
+	this.kd = true;
         if (event.keyCode == 190) {
           angolo = -6;
         }
@@ -91,7 +91,7 @@ function keypress_handler(event) {
           angolo = 6;
         }
         sterza = setInterval(function() {
-					gira(angolo);
+		gira(angolo);
 		}, 5);
     }
   }
